@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: sans-serif;
+}
+.fondo{
+    background: url(../assets/img/tenis-para-hombre-fbk.webp);
+    background-size: cover;/*Especifique el tamaño de una imagen de fondo con "auto" y en píxeles:*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20%;
+    margin:auto;
+    background-repeat: no-repeat;
+    background-position:center;
+}
+nav ol li a{
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background:linear-gradient(to right, #883fd5, #0c7bd5);
+    text-decoration: none; /* Quita el subrayado */
+    padding: 10px;/*padin para la parte de adentro del recuadro*/   
+    box-shadow: 2px 2px 5px #000; /* Sombra de caja */
+    margin-left: 10%;/*margen de los botones */
+}
+  
+nav ol li a:hover{
+    
+    margin-left: 14%;
+    margin-bottom: 10%;
+    height: 50px;
+    width: 150px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background:linear-gradient(to right, #883fd5, #0c7bd5); 
+    
+}
+#barra_inicio{
+    background-color: #ffffff;
+    padding: 3%;
+}
+.clear{
+    clear: both;
+}
+
+.log{
+    margin-left: 500px;
+    margin-top: -70px;    
+}
+nav ol li{
+    list-style: none; 
+    display: inline; 
+
+}
+
+/*parte del fondo de media imagen*/
+.flex-center{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Imagenes de tenis*/
+.contenedor{
+    margin-top: 3%;
+    margin-left: 5%;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 2%;
+    width: 25%;
+    border: 2px solid #000;
+    float: left;
+    border-radius: 5%;
+    
+}
+.mover{
+    background-color: #999;
+    border-radius: 8%;
+    padding-left: 0%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+p{
+    padding: 5%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2{
+    padding-top: 5%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+button{
+    margin-left: 23%;
+    margin-bottom: 10%;
+    height: 50px;
+    width: 150px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background:linear-gradient(to right, #883fd5, #0c7bd5);
+}
+
+
+/*what*/
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+.float:hover {
+	text-decoration: none;
+	color: #25d366;
+  background-color:#fff;
+}
+
+.my-float{
+	margin-top:16px;
+}

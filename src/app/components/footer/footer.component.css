@@ -1,0 +1,33 @@
+footer{
+    width: 80%;
+    padding-top: 5%;
+    padding-left: 10%;
+    font-size: 120%;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+.redes {
+    
+    margin-bottom: 5%;
+    margin-top: -20px;
+    margin-left: 0px ;
+    width: 30%;
+    padding-top: 0px;
+    display: flex;
+    float: left;
+    padding-left: 80%;
+}
+.redes{
+    transform: translateX(-550px);
+    max-width: 400px;
+    animation: animates 5s linear infinite;
+  }
+  @keyframes animates {
+    0%,100%{
+      transform: translateX(-680px);
+    }
+    50%{
+      transform: translateX(-600px);
+    }
+  
+  }
